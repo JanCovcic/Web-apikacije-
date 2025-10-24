@@ -1,0 +1,10 @@
+<body>
+  <h1>Lando Norris</h1>
+  <h2>On Track</h2>
+  <p>Podiums</p>
+  <p>Wins</p>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Lando_Norris_2023.jpg" alt="Lando Norris" title="Lando Norris">
+
+  <img src="images/lando.jpg" alt="Lando Norris" title="Lando Norris">
+</body>
