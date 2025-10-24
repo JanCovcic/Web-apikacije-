@@ -1,0 +1,39 @@
+<body>
+  <h1>Popis mobitela</h1>
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>Samsung</th>
+      <th>Apple</th>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s9-1.jpg" alt="Galaxy S9" width="150"><br>
+        Galaxy S9
+      </td>
+      <td>
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone11-1.jpg" alt="iPhone 11" width="150"><br>
+        iPhone 11
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s10-1.jpg" alt="Galaxy S10" width="150"><br>
+        Galaxy S10
+      </td>
+      <td>
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone12-1.jpg" alt="iPhone 12" width="150"><br>
+        iPhone 12
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-1.jpg" alt="Galaxy S20" width="150"><br>
+        Galaxy S20
+      </td>
+      <td>
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone13-1.jpg" alt="iPhone 13" width="150"><br>
+        iPhone 13
+      </td>
+    </tr>
+  </table>
+</body>
