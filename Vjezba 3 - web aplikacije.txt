@@ -1,0 +1,22 @@
+<body>
+  <h1>Lando Norris</h1>
+  <h2>On Track</h2>
+  <p>Podiums</p>
+  <p>Wins</p>
+
+  <!-- Slika s apsolutnom putanjom -->
+  <figure>
+    <a href="https://upload.wikimedia.org/wikipedia/commons/3/3f/Lando_Norris_2023.jpg" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Lando_Norris_2023.jpg" alt="Lando Norris" title="Lando Norris" width="200">
+    </a>
+    <figcaption>Lando Norris na stazi – službena fotografija</figcaption>
+  </figure>
+
+  <!-- Slika s relativnom putanjom -->
+  <figure>
+    <a href="images/lando-large.jpg" target="_blank">
+      <img src="images/lando.jpg" alt="Lando Norris" title="Lando Norris" width="200">
+    </a>
+    <figcaption>Lando Norris – lokalna slika iz projekta</figcaption>
+  </figure>
+</body>
