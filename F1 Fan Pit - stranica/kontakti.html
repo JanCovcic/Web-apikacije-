@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang='hr'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>F1 Fan Pit - Kontakti</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='icon' href='favicon.ico'>
+</head>
+<body>
+    <header>
+        <h1>🏎️ F1 Fan Pit</h1>
+        <p class="tagline">Tvoja ultimativna Formula 1 destinacija</p>
+        <nav>
+            <ul>
+                <li><a href='index.html'>Početna</a></li>
+                <li><a href='vijesti.html'>Vijesti</a></li>
+                <li><a href='galerija.html'>Galerija</a></li>
+                <li><a href='eventi.html'>Eventi</a></li>
+                <li><a href='o-nama.html'>O nama</a></li>
+                <li><a href='kontakti.html'>Kontakti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Kontaktirajte nas</h2>
+        
+        <section class="contact-intro">
+            <p>Imate pitanje, prijedlog ili želite surađivati s nama? Slobodno nas kontaktirajte putem forme ispod ili preko naših društvenih mreža. Trudimo se odgovoriti na sve poruke u roku 24-48 sati.</p>
+        </section>
+        
+        <div class="contact-wrapper">
+            <section class="contact-form-section">
+                <h3>📧 Pošaljite nam poruku</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="ime">Ime i prezime *</label>
+                        <input type='text' id="ime" name='ime' placeholder="Unesite vaše ime i prezime" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email adresa *</label>
+                        <input type='email' id="email" name='email' placeholder="vas.email@primjer.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefon">Telefon</label>
+                        <input type='tel' id="telefon" name='telefon' placeholder="+385 xx xxx xxxx">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tema">Tema *</label>
+                        <select id="tema" name="tema" required>
+                            <option value="">Odaberite temu...</option>
+                            <option value="vijesti">Prijedlog za vijest</option>
+                            <option value="suradnja">Suradnja</option>
+                            <option value="tehnicki">Tehnička podrška</option>
+                            <option value="ostalo">Ostalo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="poruka">Vaša poruka *</label>
+                        <textarea id="poruka" name='poruka' rows="6" placeholder="Unesite vašu poruku ovdje..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Želim primati newsletter sa najnovijim F1 vijestima</label>
+                    </div>
+                    
+                    <button type='submit' class="submit-btn">🏁 Pošalji poruku</button>
+                </form>
+            </section>
+            
+            <section class="contact-info">
+                <h3>📍 Informacije</h3>
+                
+                <div class="info-box">
+                    <h4>📧 Email</h4>
+                    <p><a href="mailto:info@f1fanpit.com">info@f1fanpit.com</a></p>
+                </div>
+                
+                <div class="info-box">
+                    <h4>📱 Društvene mreže</h4>
+                    <p>
+                        <a href="#" class="social-link">Facebook</a><br>
+                        <a href="#" class="social-link">Instagram</a><br>
+                        <a href="#" class="social-link">Twitter/X</a><br>
+                        <a href="#" class="social-link">YouTube</a>
+                    </p>
+                </div>
+                
+                <div class="info-box">
+                    <h4>⏰ Radno vrijeme</h4>
+                    <p>Ponedjeljak - Petak: 9:00 - 17:00<br>
+                    Vikend: 10:00 - 14:00</p>
+                    <p><small>*Tijekom trkaćih vikenda dostupni 24/7</small></p>
+                </div>
+                
+                <div class="info-box">
+                    <h4>🏢 Adresa</h4>
+                    <p>F1 Fan Pit<br>
+                    Trg Formula 1, broj 1<br>
+                    10000 Zagreb, Hrvatska</p>
+                </div>
+            </section>
+        </div>
+        
+        <section class="map-section">
+            <h3>🗺️ Naša lokacija</h3>
+            <iframe 
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.0469595347537!2d15.9745!3d45.8150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDQ4JzU0LjAiTiAxNcKwNTgnMjguMyJF!5e0!3m2!1sen!2shr!4v1234567890' 
+                title='F1 Fan Pit lokacija' 
+                allowfullscreen 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 F1 Fan Pit | Sva prava pridržana</p>
+        <p>Neslužbena fan stranica - nije povezana s Formula 1®</p>
+    </footer>
+</body>
+</html>
