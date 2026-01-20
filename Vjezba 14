@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja prva stranica – Header</title>
+
+<style>
+
+ {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+header {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.banner img {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #ffcc00;
+}
+
+
+nav {
+    background-color: #333333;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+
+
+main {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+}
+
+
+main h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+
+main h2 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 20px;
+}
+
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.uvod {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+#osnovan {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+
+.vazno {
+    color: green;
+    font-weight: bold;
+}
+
+
+.lego-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    color: blue;
+    background-color: #ffffff;
+}
+
+
+.lego-slika {
+    width: 300px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.lista-tema {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+
+.napomena {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.raspored {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+.raspored caption {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.raspored th,
+.raspored td {
+    border: 1px solid #cccccc;
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.raspored th {
+    background-color: #fff7cc;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+</style>
+
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="f1_banner.jpg" alt="Formula 1">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">O Formuli 1</a></li>
+                <li><a href="#">Timovi</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formula 1 Fan Klub</h1>
+
+        <h2>Dobrodošli u svijet Formule 1</h2>
+
+        <p class="uvod">
+            Formula 1 Fan Klub okuplja zaljubljenike u brzinu, tehnologiju i vrhunsko
+            automobilističko natjecanje. Dijelimo strast prema utrkama i vozačima.
+        </p>
+
+        <p id="osnovan">
+            Klub je osnovan 2024. godine s ciljem praćenja utrka, analiziranja
+            strategija i upoznavanja povijesti Formule 1.
+        </p>
+
+        <p>
+            Na našim susretima pratimo utrke uživo, raspravljamo o taktikama,
+            bolidima i performansama vozača te razmjenjujemo mišljenja.
+        </p>
+
+        <p>
+            Posebnu pažnju posvećujemo
+            <span class="vazno">brzini</span> i
+            <span class="vazno">inženjerskoj preciznosti</span>
+            koje čine Formulu 1 vrhuncem motosporta.
+        </p>
+
+        <a class="lego-link" href="https://www.formula1.com" target="_blank">
+            Posjeti službenu Formula 1 stranicu
+        </a>
+
+        <img class="lego-slika" src="f1_car.webp" alt="Formula 1 bolid">
+
+        <h2>Najpoznatiji timovi Formule 1</h2>
+
+        <ul class="lista-tema">
+            <li>Red Bull Racing</li>
+            <li>Mercedes-AMG Petronas</li>
+            <li>Ferrari</li>
+        </ul>
+
+        <p class="napomena">
+            Napomena: raspored zajedničkog gledanja utrka objavljuje se tjedno.
+        </p>
+
+        <div class="section schedule-section">
+            <h2 class="section-title">Raspored utrka</h2>
+
+            <table class="raspored">
+                <caption>Odabrane utrke sezone</caption>
+                <thead>
