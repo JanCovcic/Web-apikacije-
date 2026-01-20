@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formula 1 – Galerija</title>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="f1_banner.jpg" alt="Formula 1">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="#">O Formuli 1</a></li>
+                <li><a href="#">Utrke</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="lego-gallery">
+            <section class="lego-gallery">
+                <h2>Galerija Formula 1 trenutaka</h2>
+                <p>Ovdje možete vidjeti nekoliko fotografija bolida, staza i akcije s utrka.</p>
+
+                <div class="lego-gallery-grid">
+                    <figure class="gallery-item" data-set="city">
+                        <img src="f1_pitlane_1.jpg" alt="Formula 1 pit lane i boksevi">
+                        <figcaption>Formula 1 pit lane i boksevi</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" data-set="technic">
+                        <img src="f1_car_1.jpg" alt="Formula 1 bolid na stazi">
+                        <figcaption>Formula 1 bolid na stazi</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" data-set="friends">
+                        <img src="f1_team_1.jpg" alt="F1 tim i mehaničari u garaži">
+                        <figcaption>F1 tim i mehaničari u garaži</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" data-set="city">
+                        <img src="f1_start_2.jpg" alt="Start utrke Formule 1">
+                        <figcaption>Start utrke Formule 1</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" data-set="technic">
+                        <img src="f1_wet_2.jpg" alt="Formula 1 vožnja po kiši">
+                        <figcaption>Formula 1 vožnja po kiši</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item" data-set="friends">
+                        <img src="f1_podium_2.jpg" alt="Podij i slavlje nakon utrke">
+                        <figcaption>Podij i slavlje nakon utrke</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; Jan Covcic
+    </footer>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Moja prva stranica – Header</title>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="banner">
+            <img src="f1_banner.jpg" alt="Formula 1">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="#">O Formuli 1</a></li>
+                <li><a href="#">Utrke</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="https://www.formula1.com" target="_blank">Formula 1 službena stranica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formula 1 Fan Klub Zagreb</h1>
+
+        <h2>Dobrodošli u svijet Formule 1</h2>
+
+        <p class="uvod">
+            Formula 1 Fan Klub Zagreb okuplja ljubitelje brzine, tehnologije i strategije.
+            Cilj kluba je pratiti utrke, raspravljati o timovima i učiti kroz analizu.
+        </p>
+
+        <p id="osnovan">
+            Klub je osnovan 2024. godine i od tada redovito organiziramo zajedničko gledanje
+            utrka, kvizove i tematske večeri posvećene Formuli 1.
+        </p>
+
+        <p>
+            Na susretima analiziramo startove, pit-stopove, taktike i performanse bolida.
+            Učimo kako sitni detalji odlučuju pobjedu – od guma do strategije.
+        </p>
+
+        <p>
+            Posebno potičemo
+            <span class="vazno">timski rad</span> i
+            <span class="vazno">rješavanje problema</span>
+            kroz rasprave o strategijama i utrkama.
+        </p>
+
+        <a class="lego-link" href="https://www.formula1.com" target="_blank">
+            Posjeti službenu Formula 1 stranicu
+        </a>
+
+        <img class="lego-slika" src="f1_car.webp" alt="Formula 1 bolid">
+
+        <h2>Popularne teme u našem klubu</h2>
+
+        <ul class="lista-tema">
+            <li>Timovi i vozači</li>
+            <li>Strategije i pit-stopovi</li>
+            <li>Povijest Formule 1</li>
+            <li>Najpoznatije staze</li>
+        </ul>
+
+        <p class="napomena">
+            Napomena: informacije o rasporedu susreta i prijavi nalaze se na oglasnoj ploči škole.
+        </p>
+
+        <div class="section schedule-section">
+            <h2 class="section-title">Raspored susreta</h2>
+
+            <table class="raspored">
+                <caption>Raspored susreta – zimski semestar</caption>
+                <thead>
+                    <tr>
+                        <th>Dan</th>
+                        <th>Vrijeme</th>
+                        <th>Tema</th>
+                        <th>Dobna skupina</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Utorak</td>
+                        <td>18:00 – 20:00</td>
+                        <td>Uvod u Formulu 1</td>
+                        <td>12 - 13 godina</td>
+                    </tr>
+                    <tr>
+                        <td>Četvrtak</td>
+                        <td>18:00 – 20:00</td>
+                        <td>Analiza utrke i strategija</td>
+                        <td>14 - 17 godina</td>
+                    </tr>
+                    <tr>
+                        <td>Subota</td>
+                        <td>10:00 – 12:00</td>
+                        <td>Specijal: staze i legende</td>
+                        <td>otvoreno za sve</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        &copy; Jan Covcic
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formula 1 – Kontakt</title>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="banner">
+        <img src="f1_banner.jpg" alt="Formula 1 banner">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="https://www.formula1.com" target="_blank">Formula 1 službena stranica</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="lego-contact">
+        <h2>Kontaktirajte nas – Formula 1 podrška</h2>
+        <p>Ako imate pitanje vezano uz Formulu 1, ispunite kontakt obrazac u nastavku.</p>
+
+        <form class="lego-form" action="#" method="post">
+
+            <div class="form-row">
+                <label for="first-name">Ime *</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Vaše ime..." required>
+            </div>
+
+            <div class="form-row">
+                <label for="last-name">Prezime *</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Vaše prezime..." required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Vaš e-mail *</label>
+                <input type="email" id="email" name="email" placeholder="Vaš e-mail..." required>
+            </div>
+
+            <div class="form-row">
+                <label for="country">Država</label>
+                <select id="country" name="country">
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                    <option value="drugo">Drugo</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="subject">Poruka</label>
+                <textarea id="subject" name="subject" rows="5" placeholder="Napišite svoju poruku o Formuli 1..."></textarea>
+            </div>
+
+            <div class="form-row">
+                <p><strong>Newsletter</strong></p>
+                <div class="option">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Želim primati Formula 1 novosti i obavijesti o utrkama</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <p><strong>Način praćenja</strong></p>
+                <div class="option">
+                    <input type="radio" id="delivery-standard" name="delivery" value="standardna" checked>
+                    <label for="delivery-standard">TV prijenos</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" id="delivery-express" name="delivery" value="ekspresna">
+                    <label for="delivery-express">Online streaming</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="promo-code">Promo kod (onemogućeno polje)</label>
+                <input type="text" id="promo-code" name="promo-code" value="F1-2025" disabled>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" class="btn-send">Pošalji</button>
+            </div>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    &copy; Formula 1 Fan Klub – Kontakt stranica
+</footer>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+h1,
+h2,
+.section-title,
+.lego-contact h2,
+.lego-gallery h2 {
+    font-family: "Lobster", "Georgia", serif;
+}
+
+header {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #ffcc00;
+}
+
+nav {
+    background-color: #333333;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+
+main {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+main h2 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 20px;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.uvod {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#osnovan {
+    background-color: #ffffff;
+    border: 2px solid #ffcc00;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+.vazno {
+    color: green;
+    font-weight: bold;
+}
+
+.lego-link {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 12px 0;
+    border: 2px solid #0069d9;
+    border-radius: 4px;
+    color: #0069d9;
+    background-color: #ffffff;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.lego-link:hover {
+    background-color: #0069d9;
+    color: #ffffff;
+}
+
+.lego-slika {
+    width: 300px;
+    border: 3px solid #ffcc00;
+    padding: 6px;
+    margin: 12px 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.lista-tema {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.napomena {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.raspored {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.raspored {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.raspored caption {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.raspored th,
+.raspored td {
+    border: 1px solid #cccccc;
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.raspored th {
+    background-color: #fff7cc;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.lego-contact {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 2px solid #0069d9;
+    border-radius: 8px;
+}
+
+.lego-form .form-row {
+    margin-bottom: 20px;
+}
+
+.lego-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.lego-form input,
+.lego-form select,
+.lego-form textarea {
+    width: 95%;
+    padding: 0.6rem 0.75rem;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.lego-form input:focus,
+.lego-form select:focus,
+.lego-form textarea:focus {
+    border-color: #007bff;
+    background-color: #eef6ff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.lego-form input[type="checkbox"]:checked + label,
+.lego-form input[type="radio"]:checked + label {
+    font-weight: 700;
+    color: #1a7f1a;
+}
+
+.lego-form input:disabled {
+    background-color: #eeeeee;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.lego-form input:enabled,
+.lego-form select:enabled,
+.lego-form textarea:enabled {
+    background-color: #ffffff;
+}
+
+.btn-send {
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0069d9;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-send:hover {
+    background-color: #0053aa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+nav.main-nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav.main-nav a:hover {
+    background-color: #555555;
+}
+
+nav.main-nav a:focus {
+    background-color: #555555;
+    outline: 2px solid #ffffff;
+}
+
+nav.main-nav a:active {
+    transform: scale(0.97);
+}
+
+nav.main-nav a:visited {
+    color: #dddddd;
+}
+
+nav.main-nav a[href*="galerija"] {
+    background-color: #ffcc00;
+    color: #333333;
+    font-weight: bold;
+}
+
+nav.main-nav a[target="_blank"] {
+    background-color: #0066cc;
+}
+
+nav.main-nav a[target="_blank"]::after {
+    content: " ↗";
+    font-size: 0.9em;
+}
+
+.lego-gallery {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.lego-gallery h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lego-gallery p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lego-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #f9f9f9;
+    border: 3px solid #cccccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+}
+
+.gallery-item figcaption {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.gallery-item[data-set="city"] {
+    border-color: #007bff;
+}
+
+.gallery-item[data-set="technic"] {
+    border-color: #ff9800;
+}
+
+.gallery-item[data-set="friends"] {
+    border-color: #e91e63;
+}
+
+.gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    border-color: #0069d9;
+}
+
+
