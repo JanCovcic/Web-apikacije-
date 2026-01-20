@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formula 1 – Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="banner">
+        <img src="f1_banner.jpg" alt="Formula 1 banner">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="lego-contact">
+        <h2>Kontaktirajte nas – Formula 1 podrška</h2>
+        <p>Ako imate pitanje vezano uz utrke, timove ili vozače Formule 1, ispunite kontakt obrazac u nastavku.</p>
+
+        <form class="lego-form" action="#" method="post">
+
+            <div class="form-row">
+                <label for="first-name">Ime *</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Vaše ime..." required>
+            </div>
+
+            <div class="form-row">
+                <label for="last-name">Prezime *</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Vaše prezime..." required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Vaš e-mail *</label>
+                <input type="email" id="email" name="email" placeholder="Vaš e-mail..." required>
+            </div>
+
+            <div class="form-row">
+                <label for="country">Država</label>
+                <select id="country" name="country">
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                    <option value="drugo">Drugo</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="subject">Poruka</label>
+                <textarea id="subject" name="subject" rows="5" placeholder="Napišite svoju poruku o Formuli 1..."></textarea>
+            </div>
+
+            <div class="form-row">
+                <p><strong>Newsletter</strong></p>
+                <div class="option">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Želim primati Formula 1 novosti i obavijesti o utrkama</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <p><strong>Način praćenja utrka</strong></p>
+                <div class="option">
+                    <input type="radio" id="delivery-standard" name="delivery" value="standardna" checked>
+                    <label for="delivery-standard">TV prijenos</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" id="delivery-express" name="delivery" value="ekspresna">
+                    <label for="delivery-express">Online streaming</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="promo-code">Promo kod (onemogućeno polje)</label>
+                <input type="text" id="promo-code" name="promo-code" value="F1-2025" disabled>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" class="btn-send">Pošalji</button>
+            </div>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    &copy; Formula 1 Fan Klub – Kontakt stranica
+</footer>
+
+</body>
+</html>
