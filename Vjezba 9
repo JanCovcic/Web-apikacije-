@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Primjer video elemenata</title>
+</head>
+<body>
+  <h1>Video prikaz na stranici</h1>
+
+  <h2>HTML5 video stream</h2>
+  <video width="640" height="360" controls>
+    <source src="video.mp4" type="video/mp4">
+    Vaš preglednik ne podržava video element.
+  </video>
+
+  <h2>YouTube video stream</h2>
+  <iframe width="640" height="360" 
+          src="https://youtu.be/lDK9QqIzhwk?list=RDlDK9QqIzhwk" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</body>
+</html>
