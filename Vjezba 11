@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+    <body>
+        <form method="post" name="forma" id="forma">
+          <label for="firstname">Ime: </label><br>
+          <input type="text" id="firstname" name="firstname"><br>
+          <label for="lastname">Prezime: </label><br>
+          <input type="text" id="lastname" name="lastname"><br>
+          <label for="email">E-mail: </label><br>
+          <input type="email" id="email" name="email"><br><br>
+          <input type="radio" id="gender" value="Male"> Muško<br>
+          <input type="radio" id="gender" value="Female"> Žensko<br><br>
+          <input type="reset" value="Poništi">
+          <input type="submit" value="Pošalji">
+        </form>
+        <hr>
+    </body> 
+</html>
