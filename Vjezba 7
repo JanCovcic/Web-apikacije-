@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extra space between words</title>
+</head>
+<body>
+  <h1>Extra space between words</h1>
+
+  <p>text&nbsp;text</p>
+  <p>10 &lt; 12</p>
+
+  <footer>
+    <p>
+      Copyright &copy; Jan Covcic, 
+      <a href="https://github.com/jcovcic-ors" target="_blank">jcovcic---web-aplikacije</a>. 
+      All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
