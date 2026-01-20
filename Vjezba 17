@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Moja prva stranica – Header</title>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="banner">
+            <img src="f1_banner.jpg" alt="Formula 1">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="#">O Formuli 1</a></li>
+                <li><a href="#">Utrke</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="https://www.formula1.com" target="_blank">Formula 1 službena stranica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formula 1 Fan Klub Zagreb</h1>
+
+        <h2>Dobrodošli u svijet Formule 1</h2>
+
+        <p class="uvod">
+            Formula 1 Fan Klub Zagreb okuplja ljubitelje brzine, tehnologije i
+            vrhunskog motosporta. Cilj kluba je dijeljenje strasti prema utrkama
+            i vozačima.
+        </p>
+
+        <p id="osnovan">
+            Klub je osnovan 2024. godine i redovito organiziramo zajedničko praćenje
+            utrka, rasprave o strategijama i analize sezona.
+        </p>
+
+        <p>
+            Na susretima pratimo prijenose utrka, razgovaramo o taktikama timova,
+            performansama bolida i razvoju tehnologije u Formuli 1.
+        </p>
+
+        <p>
+            Posebno ističemo
+            <span class="vazno">brzinu</span> i
+            <span class="vazno">inženjersku preciznost</span>
+            koje čine Formulu 1 vrhuncem automobilizma.
+        </p>
+
+        <a class="lego-link" href="https://www.formula1.com" target="_blank">
+            Posjeti službenu Formula 1 stranicu
+        </a>
+
+        <img class="lego-slika" src="f1_car.webp" alt="Formula 1 bolid">
+
+        <h2>Najpoznatiji timovi Formule 1</h2>
+
+        <ul class="lista-tema">
+            <li>Red Bull Racing</li>
+            <li>Mercedes-AMG Petronas</li>
+            <li>Scuderia Ferrari</li>
+            <li>McLaren</li>
+        </ul>
+
+        <p class="napomena">
+            Napomena: raspored zajedničkog gledanja utrka objavljuje se na oglasnoj ploči kluba.
+        </p>
+
+        <div class="section schedule-section">
+            <h2 class="section-title">Raspored utrka</h2>
+
+            <table class="raspored">
+                <caption>Odabrane utrke – sezona</caption>
+                <thead>
+                    <tr>
+                        <th>Grand Prix</th>
+                        <th>Vrijeme</th>
+                        <th>Staza</th>
+                        <th>Država</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bahrain GP</td>
+                        <td>20:00</td>
+                        <td>Sakhir</td>
+                        <td>Bahrain</td>
+                    </tr>
+                    <tr>
+                        <td>Monaco GP</td>
+                        <td>15:00</td>
+                        <td>Monte Carlo</td>
+                        <td>Monako</td>
+                    </tr>
+                    <tr>
+                        <td>Italian GP</td>
+                        <td>15:00</td>
+                        <td>Monza</td>
+                        <td>Italija</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        &copy; Jan Covcic
+    </footer>
+
+</body>
+</html>
