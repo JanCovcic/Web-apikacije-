@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Vjezba 12 WEB-APLIKACIJE</title>
+</head>
+<body>
+
+<form>
+
+    <label>First Name *</label><br>
+    <input type="text" name="first_name" placeholder="Your first name..." /><br><br>
+
+    <label>Last Name *</label><br>
+    <input type="text" name="last_name" placeholder="Your last name..." /><br><br>
+
+    <label>Your E-mail *</label><br>
+    <input type="email" name="email" placeholder="Your e-mail..." /><br><br>
+
+    <label>Country</label><br>
+    <select name="country">
+        <option value="turkey">Turkey</option>
+        <option value="croatia" selected>Croatia</option>
+        <option value="france">France</option>
+        <option value="egypt">Egypt</option>
+        <option value="bosnia">Bosnia & Herzegovina</option>
+    </select><br><br>
+
+    <label>Message</label><br>
+    <textarea name="message" placeholder="Write something..." rows="5" cols="30"></textarea><br><br>
+
+    <button type="submit">Send</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<footer>
+        <p>
+            Copyright @ Jan Covcic
+            <a href="https://github.com/jcovcic/vjezbe/tree/main" target="_blank">Vježba 12</a>
+            All rights reserved.
+        </p>
+</footer>
+
+</body>
+</html>
