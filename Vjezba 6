@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrste HTML lista</title>
+</head>
+<body>
+  <h1>Primjeri HTML lista</h1>
+  <p><em>Copyright © by Alen Šimec, PhD; All Rights Reserved.</em></p>
+
+  <h2>1. Neuređena lista</h2>
+  <ul>
+    <li>Samsung</li>
+    <li>Apple</li>
+    <li>Huawei</li>
+    <li>Panasonic</li>
+    <li>Motorola</li>
+  </ul>
+
+  <h2>2. Uređena lista</h2>
+  <ol>
+    <li>Samsung</li>
+    <li>Apple</li>
+    <li>Huawei</li>
+    <li>Panasonic</li>
+    <li>Motorola</li>
+  </ol>
+
+  <h2>3. Definicijska lista</h2>
+  <dl>
+    <dt>Samsung</dt>
+    <dd>Južnokorejski proizvođač pametnih telefona i elektronike.</dd>
+
+    <dt>Apple</dt>
+    <dd>Američki proizvođač iPhone uređaja i računala.</dd>
+
+    <dt>Huawei</dt>
+    <dd>Kineski proizvođač mobitela i telekomunikacijske opreme.</dd>
+
+    <dt>Panasonic</dt>
+    <dd>Japanski proizvođač elektronike i kućanskih aparata.</dd>
+
+    <dt>Motorola</dt>
+    <dd>Američka tvrtka poznata po komunikacijskim uređajima i pametnim telefonima.</dd>
+  </dl>
+
+  <h2>4. Ugniježđena lista</h2>
+  <ol>
+    <li>Samsung
+      <ul>
+        <li>Galaxy S23 Ultra</li>
+        <li>Galaxy S23+</li>
+        <li>Galaxy S23</li>
+        <li>Galaxy Z Fold 5</li>
+        <li>Galaxy Z Flip 5</li>
+      </ul>
+    </li>
+
+    <li>Apple
+      <ol>
+        <li>iPhone 12</li>
+        <li>iPhone 13</li>
+        <li>iPhone 14 Plus</li>
+        <li>iPhone 15 Pro</li>
+      </ol>
+    </li>
+  </ol>
+
+</body>
+</html>
