@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja prva stranica – Header</title>
+
+<style>
+    main h1 {
+        text-align: center;
+        color: blue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    main h2 {
+        margin-top: 15px;
+        margin-bottom: 8px;
+        color: #333333;
+        font-size: 20px;
+    }
+
+    main p {
+        line-height: 1.5;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .uvod {
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    #osnovan {
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        padding: 8px;
+        margin-bottom: 12px;
+    }
+
+    .vazno {
+        color: green;
+        font-weight: bold;
+    }
+
+    .lego-link {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        border: 1px solid blue;
+        padding: 5px 10px;
+        color: blue;
+        background-color: #ffffff;
+    }
+
+    .lego-slika {
+        width: 300px;
+        border: 1px solid #cccccc;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lista-tema {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        list-style-type: square;
+    }
+
+    .napomena {
+        color: red;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+        
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0    
+    }
+
+    
+    header {
+        background-color: white;
+        border: 1px solid #cccccc;
+        margin: 20px;
+        padding: 10px;    
+    }
+
+    
+    .banner img {
+        width: 100%;
+        display: block;
+        border-bottom: 3px solid #ffcc00;
+    }
+
+   
+    nav {
+    
+        background-color: #333333;
+        padding: 8px;
+        margin-top: 10px;
+
+    }
+
+   
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+    }
+
+  
+    li {
+        display: inline-block;
+        margin-right: 15px; 
+    }
+
+    
+    a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+
+   
+    main {
+        background-color: white;
+        border: 1px solid #cccccc;
+        margin: 0 20px 20px 20px;
+        padding: 10px;
+    
+    }
+
+    
+    main p {
+        line-height: 1.5; 
+    }
+
+  
+    footer {
+        text-align: center;
+        font-size: 12px;
+        color: #555555;
+        margin-bottom: 10px; 
+    }
+</style>
+
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="lego_banner.jpg" alt="Lego">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Usluge</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>LEGO klub Zagreb</h1>
+
+        <h2>Dobrodošli u naš LEGO svijet</h2>
+
+        <p class="uvod">
+            LEGO klub Zagreb okuplja studente koji vole slagati modele, smišljati priče
+            i učiti kroz igru. Cilj kluba je razvijati maštu i logičko razmišljanje.
+        </p>
+
+        <p id="osnovan">
+            Klub je osnovan 2024. godine i od tada redovito organiziramo radionice,
+            natjecanja i izložbe LEGO modela.
+        </p>
+
+        <p>
+            Na radionicama radimo u malim timovima. Svaki tim dobiva zadatak, a
+            zatim zajedno planiraju, slažu modele i predstavljaju svoje rješenje.
+            Na taj način učimo suradnju i komunikaciju.
+        </p>
+
+        <p>
+            Posebno potičemo
+            <span class="vazno">kreativnost</span> i
+            <span class="vazno">rješavanje problema</span>
+            kroz zabavne LEGO izazove.
+        </p>
+
+        <a class="lego-link" href="https://www.lego.com" target="_blank">
+            Posjeti službenu LEGO stranicu
+        </a>
+
+        <img class="lego-slika" src="lego_set.webp" alt="LEGO set">
+
+        <h2>Popularne LEGO teme u našem klubu</h2>
+
+        <ul class="lista-tema">
+            <li>LEGO City</li>
+            <li>LEGO Technic</li>
+            <li>LEGO Star Wars</li>
+            <li>LEGO Friends</li>
+        </ul>
+
+        <p class="napomena">
+            Napomena: informacije o rasporedu radionica i prijavi nalaze se na oglasnoj ploči škole.
+        </p>
+    </main>
+
+    <footer>
+        &copy; Jan Covcic
+    </footer>
+</body>
+</html>
